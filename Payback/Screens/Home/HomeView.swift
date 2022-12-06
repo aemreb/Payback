@@ -18,10 +18,12 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
+                // connection error
                 if !isNetworkConnected {
                     CeilingBanner()
                         .transition(.move(edge: .top))
                     listView
+                // mock error
                 } else if model.errorOccurred {
                     if model.hasMockTimeElapsed {
                         ErrorView(retryAction: {
@@ -33,6 +35,7 @@ struct HomeView: View {
                             ProgressView()
                         }.ignoresSafeArea()
                     }
+                // no problem
                 } else {
                     listView
                 }
@@ -75,6 +78,7 @@ struct HomeView: View {
     var listView: some View {
         VStack {
             HStack (alignment: .center){
+                //correct hstack placement
                 Button("\(Image(systemName: "line.3.horizontal.decrease.circle"))", action: {
                     
                 })
