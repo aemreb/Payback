@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct PaybackApp: App {
+    @ObservedObject var networkCheck = NetworkReachability()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView(isNetworkConnected: $networkCheck.isConnected)
+                .animation(.easeInOut(duration: 0.2), value: networkCheck.isConnected)
         }
     }
 }

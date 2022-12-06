@@ -7,18 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		902BB7C8293D36B800A649E0 /* TransactionSumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902BB7C7293D36B800A649E0 /* TransactionSumView.swift */; };
+		902BB7CD293D3C0800A649E0 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902BB7CC293D3C0800A649E0 /* DetailsView.swift */; };
+		902BB7D0293D41B200A649E0 /* TransactionSumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902BB7CF293D41B200A649E0 /* TransactionSumViewModel.swift */; };
 		9031CB4C293BC8FE00E683D8 /* PaybackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9031CB4B293BC8FE00E683D8 /* PaybackApp.swift */; };
-		9031CB4E293BC8FE00E683D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9031CB4D293BC8FE00E683D8 /* ContentView.swift */; };
+		9031CB4E293BC8FE00E683D8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9031CB4D293BC8FE00E683D8 /* HomeView.swift */; };
 		9031CB50293BC90000E683D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9031CB4F293BC90000E683D8 /* Assets.xcassets */; };
 		9031CB53293BC90000E683D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9031CB52293BC90000E683D8 /* Preview Assets.xcassets */; };
+		90C4347F293E042A0053011E /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4347E293E042A0053011E /* NetworkReachability.swift */; };
+		90C43481293E2AE50053011E /* TransactionsListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C43480293E2AE50053011E /* TransactionsListRow.swift */; };
+		90C8B2F0293BCD12003BB48C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8B2EF293BCD12003BB48C /* HomeViewModel.swift */; };
+		90C8B2F2293BCEBA003BB48C /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8B2F1293BCEBA003BB48C /* Transactions.swift */; };
+		90C8B2F4293CE863003BB48C /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 90C8B2F3293CE863003BB48C /* test.json */; };
+		90E3F550293E858F00B8F8FD /* CeilingBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E3F54F293E858F00B8F8FD /* CeilingBanner.swift */; };
+		90E3F553293E86E000B8F8FD /* NetworkOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E3F552293E86E000B8F8FD /* NetworkOperations.swift */; };
+		90E3F555293E86EF00B8F8FD /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E3F554293E86EF00B8F8FD /* APIConstants.swift */; };
+		90E3F558293F323200B8F8FD /* NetworkOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E3F552293E86E000B8F8FD /* NetworkOperations.swift */; };
+		90E3F559293F323200B8F8FD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9031CB4D293BC8FE00E683D8 /* HomeView.swift */; };
+		90E3F55A293F323200B8F8FD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8B2EF293BCD12003BB48C /* HomeViewModel.swift */; };
+		90E3F55B293F323200B8F8FD /* TransactionSumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902BB7C7293D36B800A649E0 /* TransactionSumView.swift */; };
+		90E3F55C293F323200B8F8FD /* CeilingBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E3F54F293E858F00B8F8FD /* CeilingBanner.swift */; };
+		90E3F55D293F323200B8F8FD /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8B2F1293BCEBA003BB48C /* Transactions.swift */; };
+		90E3F55E293F323200B8F8FD /* PaybackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9031CB4B293BC8FE00E683D8 /* PaybackApp.swift */; };
+		90E3F55F293F323200B8F8FD /* TransactionsListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C43480293E2AE50053011E /* TransactionsListRow.swift */; };
+		90E3F560293F323200B8F8FD /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902BB7CC293D3C0800A649E0 /* DetailsView.swift */; };
+		90E3F561293F323200B8F8FD /* TransactionSumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902BB7CF293D41B200A649E0 /* TransactionSumViewModel.swift */; };
+		90E3F562293F323200B8F8FD /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4347E293E042A0053011E /* NetworkReachability.swift */; };
+		90E3F563293F323200B8F8FD /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E3F554293E86EF00B8F8FD /* APIConstants.swift */; };
+		90E3F566293F323200B8F8FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9031CB52293BC90000E683D8 /* Preview Assets.xcassets */; };
+		90E3F567293F323200B8F8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9031CB4F293BC90000E683D8 /* Assets.xcassets */; };
+		90E3F568293F323200B8F8FD /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 90C8B2F3293CE863003BB48C /* test.json */; };
+		90E3F585293F78E400B8F8FD /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E3F584293F78E400B8F8FD /* ErrorView.swift */; };
+		90E3F586293F78E400B8F8FD /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E3F584293F78E400B8F8FD /* ErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9031CB48293BC8FE00E683D8 /* Payback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Payback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		902BB7C7293D36B800A649E0 /* TransactionSumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionSumView.swift; sourceTree = "<group>"; };
+		902BB7CC293D3C0800A649E0 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		902BB7CF293D41B200A649E0 /* TransactionSumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionSumViewModel.swift; sourceTree = "<group>"; };
+		9031CB48293BC8FE00E683D8 /* Payback_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Payback_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9031CB4B293BC8FE00E683D8 /* PaybackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaybackApp.swift; sourceTree = "<group>"; };
-		9031CB4D293BC8FE00E683D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9031CB4D293BC8FE00E683D8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9031CB4F293BC90000E683D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9031CB52293BC90000E683D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90C4347E293E042A0053011E /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		90C43480293E2AE50053011E /* TransactionsListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListRow.swift; sourceTree = "<group>"; };
+		90C8B2EF293BCD12003BB48C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		90C8B2F1293BCEBA003BB48C /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		90C8B2F3293CE863003BB48C /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		90E3F54F293E858F00B8F8FD /* CeilingBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeilingBanner.swift; sourceTree = "<group>"; };
+		90E3F552293E86E000B8F8FD /* NetworkOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkOperations.swift; sourceTree = "<group>"; };
+		90E3F554293E86EF00B8F8FD /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		90E3F56C293F323200B8F8FD /* Payback_Prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Payback_Prod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E3F584293F78E400B8F8FD /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,9 +70,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90E3F564293F323200B8F8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		902BB7C9293D37AF00A649E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				90C8B2F1293BCEBA003BB48C /* Transactions.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		902BB7CE293D3C0F00A649E0 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				902BB7CC293D3C0800A649E0 /* DetailsView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 		9031CB3F293BC8FE00E683D8 = {
 			isa = PBXGroup;
 			children = (
@@ -43,7 +107,8 @@
 		9031CB49293BC8FE00E683D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9031CB48293BC8FE00E683D8 /* Payback.app */,
+				9031CB48293BC8FE00E683D8 /* Payback_Test.app */,
+				90E3F56C293F323200B8F8FD /* Payback_Prod.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +116,10 @@
 		9031CB4A293BC8FE00E683D8 /* Payback */ = {
 			isa = PBXGroup;
 			children = (
+				90C8B2F3293CE863003BB48C /* test.json */,
 				9031CB4B293BC8FE00E683D8 /* PaybackApp.swift */,
-				9031CB4D293BC8FE00E683D8 /* ContentView.swift */,
+				90C4347D293E04150053011E /* Screens */,
+				90C4347C293E03F60053011E /* Utilities */,
 				9031CB4F293BC90000E683D8 /* Assets.xcassets */,
 				9031CB51293BC90000E683D8 /* Preview Content */,
 			);
@@ -67,12 +134,62 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		90C4347B293E01040053011E /* TransactionSumView */ = {
+			isa = PBXGroup;
+			children = (
+				902BB7C7293D36B800A649E0 /* TransactionSumView.swift */,
+				902BB7CF293D41B200A649E0 /* TransactionSumViewModel.swift */,
+			);
+			path = TransactionSumView;
+			sourceTree = "<group>";
+		};
+		90C4347C293E03F60053011E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				90E3F554293E86EF00B8F8FD /* APIConstants.swift */,
+				90C4347E293E042A0053011E /* NetworkReachability.swift */,
+				90E3F552293E86E000B8F8FD /* NetworkOperations.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		90C4347D293E04150053011E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				902BB7C9293D37AF00A649E0 /* Models */,
+				90C8B2F5293CE963003BB48C /* Home */,
+				902BB7CE293D3C0F00A649E0 /* Details */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		90C8B2F5293CE963003BB48C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9031CB4D293BC8FE00E683D8 /* HomeView.swift */,
+				90C8B2EF293BCD12003BB48C /* HomeViewModel.swift */,
+				90C4347B293E01040053011E /* TransactionSumView */,
+				90E3F551293E859A00B8F8FD /* Subviews */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		90E3F551293E859A00B8F8FD /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				90C43480293E2AE50053011E /* TransactionsListRow.swift */,
+				90E3F54F293E858F00B8F8FD /* CeilingBanner.swift */,
+				90E3F584293F78E400B8F8FD /* ErrorView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9031CB47293BC8FE00E683D8 /* Payback */ = {
+		9031CB47293BC8FE00E683D8 /* Payback_Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9031CB56293BC90000E683D8 /* Build configuration list for PBXNativeTarget "Payback" */;
+			buildConfigurationList = 9031CB56293BC90000E683D8 /* Build configuration list for PBXNativeTarget "Payback_Test" */;
 			buildPhases = (
 				9031CB44293BC8FE00E683D8 /* Sources */,
 				9031CB45293BC8FE00E683D8 /* Frameworks */,
@@ -82,9 +199,26 @@
 			);
 			dependencies = (
 			);
-			name = Payback;
+			name = Payback_Test;
 			productName = Payback;
-			productReference = 9031CB48293BC8FE00E683D8 /* Payback.app */;
+			productReference = 9031CB48293BC8FE00E683D8 /* Payback_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90E3F556293F323200B8F8FD /* Payback_Prod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E3F569293F323200B8F8FD /* Build configuration list for PBXNativeTarget "Payback_Prod" */;
+			buildPhases = (
+				90E3F557293F323200B8F8FD /* Sources */,
+				90E3F564293F323200B8F8FD /* Frameworks */,
+				90E3F565293F323200B8F8FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Payback_Prod;
+			productName = Payback;
+			productReference = 90E3F56C293F323200B8F8FD /* Payback_Prod.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +249,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9031CB47293BC8FE00E683D8 /* Payback */,
+				9031CB47293BC8FE00E683D8 /* Payback_Test */,
+				90E3F556293F323200B8F8FD /* Payback_Prod */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +262,17 @@
 			files = (
 				9031CB53293BC90000E683D8 /* Preview Assets.xcassets in Resources */,
 				9031CB50293BC90000E683D8 /* Assets.xcassets in Resources */,
+				90C8B2F4293CE863003BB48C /* test.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E3F565293F323200B8F8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E3F566293F323200B8F8FD /* Preview Assets.xcassets in Resources */,
+				90E3F567293F323200B8F8FD /* Assets.xcassets in Resources */,
+				90E3F568293F323200B8F8FD /* test.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +283,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9031CB4E293BC8FE00E683D8 /* ContentView.swift in Sources */,
+				90E3F553293E86E000B8F8FD /* NetworkOperations.swift in Sources */,
+				9031CB4E293BC8FE00E683D8 /* HomeView.swift in Sources */,
+				90C8B2F0293BCD12003BB48C /* HomeViewModel.swift in Sources */,
+				902BB7C8293D36B800A649E0 /* TransactionSumView.swift in Sources */,
+				90E3F550293E858F00B8F8FD /* CeilingBanner.swift in Sources */,
+				90C8B2F2293BCEBA003BB48C /* Transactions.swift in Sources */,
 				9031CB4C293BC8FE00E683D8 /* PaybackApp.swift in Sources */,
+				90C43481293E2AE50053011E /* TransactionsListRow.swift in Sources */,
+				902BB7CD293D3C0800A649E0 /* DetailsView.swift in Sources */,
+				902BB7D0293D41B200A649E0 /* TransactionSumViewModel.swift in Sources */,
+				90C4347F293E042A0053011E /* NetworkReachability.swift in Sources */,
+				90E3F585293F78E400B8F8FD /* ErrorView.swift in Sources */,
+				90E3F555293E86EF00B8F8FD /* APIConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E3F557293F323200B8F8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E3F558293F323200B8F8FD /* NetworkOperations.swift in Sources */,
+				90E3F559293F323200B8F8FD /* HomeView.swift in Sources */,
+				90E3F55A293F323200B8F8FD /* HomeViewModel.swift in Sources */,
+				90E3F55B293F323200B8F8FD /* TransactionSumView.swift in Sources */,
+				90E3F55C293F323200B8F8FD /* CeilingBanner.swift in Sources */,
+				90E3F55D293F323200B8F8FD /* Transactions.swift in Sources */,
+				90E3F55E293F323200B8F8FD /* PaybackApp.swift in Sources */,
+				90E3F55F293F323200B8F8FD /* TransactionsListRow.swift in Sources */,
+				90E3F560293F323200B8F8FD /* DetailsView.swift in Sources */,
+				90E3F561293F323200B8F8FD /* TransactionSumViewModel.swift in Sources */,
+				90E3F562293F323200B8F8FD /* NetworkReachability.swift in Sources */,
+				90E3F586293F78E400B8F8FD /* ErrorView.swift in Sources */,
+				90E3F563293F323200B8F8FD /* APIConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DTEST";
 				PRODUCT_BUNDLE_IDENTIFIER = aemreb.Payback;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -309,6 +487,67 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DTEST";
+				PRODUCT_BUNDLE_IDENTIFIER = aemreb.Payback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90E3F56A293F323200B8F8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Payback/Preview Content\"";
+				DEVELOPMENT_TEAM = AL5FZG95B3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DPROD";
+				PRODUCT_BUNDLE_IDENTIFIER = aemreb.Payback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90E3F56B293F323200B8F8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Payback/Preview Content\"";
+				DEVELOPMENT_TEAM = AL5FZG95B3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DPROD";
 				PRODUCT_BUNDLE_IDENTIFIER = aemreb.Payback;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -329,11 +568,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9031CB56293BC90000E683D8 /* Build configuration list for PBXNativeTarget "Payback" */ = {
+		9031CB56293BC90000E683D8 /* Build configuration list for PBXNativeTarget "Payback_Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9031CB57293BC90000E683D8 /* Debug */,
 				9031CB58293BC90000E683D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E3F569293F323200B8F8FD /* Build configuration list for PBXNativeTarget "Payback_Prod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E3F56A293F323200B8F8FD /* Debug */,
+				90E3F56B293F323200B8F8FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
