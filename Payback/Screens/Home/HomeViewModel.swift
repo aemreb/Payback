@@ -43,7 +43,7 @@ class HomeViewModel: ObservableObject {
             }
         } else {
             errorOccurred = false
-            if let path = Bundle.main.path(forResource: "test", ofType: "json") {
+            if let path = Bundle.main.path(forResource: "PBTransactions", ofType: "json") {
                 do {
                     // Load the data from the file in the bundle
                     let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
